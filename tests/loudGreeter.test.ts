@@ -1,6 +1,6 @@
 import { Greeter } from "../src/greeter";
 
-class LoudGreeter extends Greeter {
+export class LoudGreeter extends Greeter {
   // Private property to keep track of extra exclamation points
   private extra: string = "!!";
 

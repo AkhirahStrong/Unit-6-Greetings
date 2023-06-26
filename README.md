@@ -5,19 +5,20 @@ Greetings
 Overview: Using TypeScript, create a Greeter class and multiple subclasses that each have a different way of greeting someone.
 
 Build Specifications
-You will create a total of 4 greeter classes (1 parent and 3 children).
-Create each class in its own file.
-Each class must have at least two Jest test cases to ensure that its functionality is working correctly. Some classes will need more tests to cover all of the features.
-In index.ts, import each of the 4 greeter classes and use them to console.log the greeting produced by each class, including the Greeter parent class.
+* You will create a total of 4 greeter classes (1 parent and 3 children).
+* Create each class in its own file.
+* Each class must have at least two Jest test cases to ensure that its functionality is working correctly. Some classes will need more tests to cover all of the features.
+* In index.ts, import each of the 4 greeter classes and use them to console.log the greeting produced by each class, including the Greeter parent class.
 
 Greeter Class
 In its own file, create a class named Greeter. This is the parent class.
 Properties:
-greeting (a string)
+ greeting (a string)
 Methods:
-constructor: Sets the greeting property from a parameter.
-greet: Has a string parameter called name. It returns the composed greeting based on the greeting property and name parameter. Use this format: "{greeting}, {name}!".
-Jest Tests: Test with different greetings and names.
+   constructor: Sets the greeting property from a parameter.
+   greet: Has a string parameter called name. It returns the composed greeting based on the greeting property and name parameter. Use 
+    this format: "{greeting}, {name}!".
+ Jest Tests: Test with different greetings and names.
 
 JavaScriptGreeter Class
 In its own file, create a class named JavaScriptGreeter. This is a subclass of Greeter.
